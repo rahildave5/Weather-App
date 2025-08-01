@@ -1,0 +1,11 @@
+/* *{
+
+} */
+.container-fluid img{
+    height: 50px;
+    width: 130px;
+    margin-right: 10px;
+}
+.navbar-navbar-expand-lg-bg-body-tertiary{
+    background-color: #48484A;
+}
