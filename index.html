@@ -8,32 +8,74 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #48484A;">
+    <div class="navigation">
+      <nav class="navbar navbar-expand-lg " >
     <div class="container-fluid">
-    <img src="logo_white_cropped.png" style="background-color: black;" alt="Weather App Logo">
-    <a class="navbar-brand" href="#">Forecast</a>
+    <img src="logo_white_cropped.png" style="background-color: #48484a;" alt="Weather App Logo">
+    <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Enter your city name    " style="background-color: #48484a; color: white;" aria-label="Search"/>
+
+    </form>
+    
+    <a class="navbar-brand nav-item" style="font-size: 17px; color: white;" href="#">Guide</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" style="font-size: 17px; color: white;" href="#">API</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Map</a>
-        </li>
-        
+        <div class="dropdown">
+        <button class="btn  dropdown-toggle nav-item" type="button" data-bs-toggle="dropdown" style="font-size: 17px; color: white;">
+          Dashboards
+        </button>
+        <ul class="dropdown-menu">
+        <li><button class="dropdown-item" type="button">Weather Dashboard</button></li>
+        <li><button class="dropdown-item" type="button">Energy Dashboard</button></li>
+        <li><button class="dropdown-item" type="button">Extreme Weather Dashboard</button></li>
+      </ul>
+    </div>
+    <li class="nav-item">
+          <a class="nav-link" style="font-size: 17px; color: white;" href="#">Marketplace</a>
+    </li>
+    <li class="nav-item">
+          <a class="nav-link" style="font-size: 17px; color: white;" href="#">Pricing</a>
+    </li>
+    <li class="nav-item">
+          <a class="nav-link" style="font-size: 17px; color: white;" href="#">Maps</a>
+    </li>
+    <li class="nav-item">
+          <a class="nav-link" style="font-size: 17px; color: white;" href="#">Our Initiatives</a>
+    </li>
+    <li class="nav-item">
+          <a class="nav-link" style="font-size: 17px; color: white;" href="#">Blog</a>
+    </li>
+    <li class="nav-item">
+          <a class="nav-link business" style="font-size: 17px; color: white; background-color: #f2f2f266;" href="#">For Business</a>
+    </li> 
+    <li class="nav-item">
+          <a class="nav-link" style="font-size: 17px; color: white;" href="#">Sign In</a>
+    </li>
+    <li class="nav-item">
+          <a class="nav-link" style="font-size: 17px; color: white;" href="#">Support centre</a>
+    </li>
+    
         
       </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Enter your city name" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      
     </div>
 
   </div>
     </nav>
+    </div>
+
+    <div class="intro-sec">
+      <img src="https://openweathermap.org/themes/openweathermap/assets/img/spring1.jpg">
+      <h1 class="overlay-content h1" style="color: #eb6b4e;"><span>OpenWeather</span> </h1>
+      <h2 class="overlay-content h2" style="color: white;"><span>Weather forecasts, nowcasts and history in a fast and elegant way</span></h2>
+    </div>
+    
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
   </body>
